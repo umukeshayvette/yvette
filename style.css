@@ -1,0 +1,88 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: url(0-.png);
+   background-size: cover;
+   background-position: center;
+  
+
+
+	
+}
+
+
+.icon{
+	width: 200px;
+	float: left;
+	color: fuchsia;
+	font-size: 40px;
+
+}
+
+.header{
+	height: 15%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+
+
+.navbar{
+	text-align: center;
+	flex: 1;
+}
+.navbar a{
+		padding:6px 20px;
+		text-decoration: none;
+		color: aqua;
+		margin-left: 50px;
+		font-size:30px;
+		font-weight: bold; 
+}
+.btn{
+	cursor: pointer;
+	color: greenyellow;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	border: 2px solid darkolivegreen;
+	background: transparent;
+	text-decoration:none;
+	text-align: center;
+	font-weight: bold;
+	margin: 40px 8px;
+    position: center;
+}
+.btn:hover {
+		color: antiquewhite;
+		background-color: aquamarine;
+}
+.btn a:visited{
+	background-color: aquamarine;
+	color:fuchsia; 
+}
+
+
+.btn a:hover {
+	color: antiquewhite;
+	
+}
+.btn a:link{
+	   text-decoration: none;
+}
+.content{
+	text-align: center;
+	margin-top: 12%;
+
+}
+.content h1{
+	font-size: 50px;
+	color: white;
+	
+}
+
+
+
